@@ -36,7 +36,8 @@
     "silver": "webp/rim_silver.webp",
     "gold": "webp/rim_gold.webp",
     "hof": "webp/rim_hof.webp"
-   }
+   },
+   "kind": "core"
   },
   "atr": {
    "name": "Above the Rim",
@@ -55,7 +56,8 @@
     "silver": "webp/atr_silver.webp",
     "gold": "webp/atr_gold.webp",
     "hof": "webp/atr_hof.webp"
-   }
+   },
+   "kind": "core"
   },
   "contact": {
    "name": "Through Contact",
@@ -74,7 +76,8 @@
     "silver": "webp/contact_silver.webp",
     "gold": "webp/contact_gold.webp",
     "hof": "webp/contact_hof.webp"
-   }
+   },
+   "kind": "core"
   },
   "range": {
    "name": "Range Finder",
@@ -93,7 +96,8 @@
     "silver": "webp/range_silver.webp",
     "gold": "webp/range_gold.webp",
     "hof": "webp/range_hof.webp"
-   }
+   },
+   "kind": "core"
   },
   "elbow": {
    "name": "Elbow Specialist",
@@ -112,7 +116,8 @@
     "silver": "webp/elbow_silver.webp",
     "gold": "webp/elbow_gold.webp",
     "hof": "webp/elbow_hof.webp"
-   }
+   },
+   "kind": "core"
   },
   "cold": {
    "name": "Ice Water",
@@ -131,7 +136,8 @@
     "silver": "webp/cold_silver.webp",
     "gold": "webp/cold_gold.webp",
     "hof": "webp/cold_hof.webp"
-   }
+   },
+   "kind": "core"
   },
   "dime": {
    "name": "Dime Dropper",
@@ -150,7 +156,8 @@
     "silver": "webp/dime_silver.webp",
     "gold": "webp/dime_gold.webp",
     "hof": "webp/dime_hof.webp"
-   }
+   },
+   "kind": "core"
   },
   "handles": {
    "name": "String Handles",
@@ -169,7 +176,8 @@
     "silver": "webp/handles_silver.webp",
     "gold": "webp/handles_gold.webp",
     "hof": "webp/handles_hof.webp"
-   }
+   },
+   "kind": "core"
   },
   "first": {
    "name": "Burst Mode",
@@ -188,7 +196,8 @@
     "silver": "webp/first_silver.webp",
     "gold": "webp/first_gold.webp",
     "hof": "webp/first_hof.webp"
-   }
+   },
+   "kind": "core"
   },
   "wall": {
    "name": "No Easy Ones",
@@ -207,7 +216,8 @@
     "silver": "webp/wall_silver.webp",
     "gold": "webp/wall_gold.webp",
     "hof": "webp/wall_hof.webp"
-   }
+   },
+   "kind": "core"
   },
   "hawk": {
    "name": "Quick Hands",
@@ -226,7 +236,8 @@
     "silver": "webp/hawk_silver.webp",
     "gold": "webp/hawk_gold.webp",
     "hof": "webp/hawk_hof.webp"
-   }
+   },
+   "kind": "core"
   },
   "swat": {
    "name": "Swat Team",
@@ -245,7 +256,8 @@
     "silver": "webp/swat_silver.webp",
     "gold": "webp/swat_gold.webp",
     "hof": "webp/swat_hof.webp"
-   }
+   },
+   "kind": "core"
   },
   "board": {
    "name": "Board Bully",
@@ -264,11 +276,12 @@
     "silver": "webp/board_silver.webp",
     "gold": "webp/board_gold.webp",
     "hof": "webp/board_hof.webp"
-   }
+   },
+   "kind": "core"
   },
   "vision": {
    "name": "Eyes in the Back",
-   "group": "Signature",
+   "group": "Playmaking",
    "stat": "ast",
    "png": {
     "locked": "png/vision_locked.png",
@@ -283,11 +296,13 @@
     "silver": "webp/vision_silver.webp",
     "gold": "webp/vision_gold.webp",
     "hof": "webp/vision_hof.webp"
-   }
+   },
+   "kind": "signature",
+   "archetype": "play"
   },
   "hot": {
    "name": "Catching Fire",
-   "group": "Signature",
+   "group": "Shooting",
    "stat": "jmp",
    "png": {
     "locked": "png/hot_locked.png",
@@ -302,11 +317,13 @@
     "silver": "webp/hot_silver.webp",
     "gold": "webp/hot_gold.webp",
     "hof": "webp/hot_hof.webp"
-   }
+   },
+   "kind": "signature",
+   "archetype": "shoot"
   },
   "downhill": {
    "name": "Freight Train",
-   "group": "Signature",
+   "group": "Playmaking",
    "stat": "drv",
    "png": {
     "locked": "png/downhill_locked.png",
@@ -321,11 +338,13 @@
     "silver": "webp/downhill_silver.webp",
     "gold": "webp/downhill_gold.webp",
     "hof": "webp/downhill_hof.webp"
-   }
+   },
+   "kind": "signature",
+   "archetype": "slash"
   },
   "shadow": {
    "name": "Shadow",
-   "group": "Signature",
+   "group": "Defense",
    "stat": "stop",
    "png": {
     "locked": "png/shadow_locked.png",
@@ -340,11 +359,13 @@
     "silver": "webp/shadow_silver.webp",
     "gold": "webp/shadow_gold.webp",
     "hof": "webp/shadow_hof.webp"
-   }
+   },
+   "kind": "signature",
+   "archetype": "lock"
   },
   "bully": {
    "name": "Bulldog Finish",
-   "group": "Signature",
+   "group": "Finishing",
    "stat": "and1",
    "png": {
     "locked": "png/bully_locked.png",
@@ -359,11 +380,13 @@
     "silver": "webp/bully_silver.webp",
     "gold": "webp/bully_gold.webp",
     "hof": "webp/bully_hof.webp"
-   }
+   },
+   "kind": "signature",
+   "archetype": "post"
   },
   "paint": {
    "name": "Paint Patrol",
-   "group": "Signature",
+   "group": "Defense",
    "stat": "blk",
    "png": {
     "locked": "png/paint_locked.png",
@@ -378,11 +401,13 @@
     "silver": "webp/paint_silver.webp",
     "gold": "webp/paint_gold.webp",
     "hof": "webp/paint_hof.webp"
-   }
+   },
+   "kind": "signature",
+   "archetype": "rim"
   },
   "pop": {
    "name": "Trailer Three",
-   "group": "Signature",
+   "group": "Shooting",
    "stat": "thr",
    "png": {
     "locked": "png/pop_locked.png",
@@ -397,7 +422,9 @@
     "silver": "webp/pop_silver.webp",
     "gold": "webp/pop_gold.webp",
     "hof": "webp/pop_hof.webp"
-   }
+   },
+   "kind": "signature",
+   "archetype": "stretch"
   },
   "stepback": {
    "name": "Step-Back Artist",
@@ -419,7 +446,8 @@
     "gold": "webp/stepback_gold.webp",
     "hof": "webp/stepback_hof.webp"
    },
-   "new": true
+   "new": true,
+   "kind": "core"
   },
   "tough": {
    "name": "Tough Shot Maker",
@@ -441,11 +469,12 @@
     "gold": "webp/tough_gold.webp",
     "hof": "webp/tough_hof.webp"
    },
-   "new": true
+   "new": true,
+   "kind": "core"
   },
   "iso": {
    "name": "Iso King",
-   "group": "Signature",
+   "group": "Shooting",
    "stat": "iso",
    "effect": "One-on-one with the floor cleared, your defender's contests count half.",
    "earnedBy": "Buckets in isolation",
@@ -464,7 +493,8 @@
     "hof": "webp/iso_hof.webp"
    },
    "archetype": "create",
-   "new": true
+   "new": true,
+   "kind": "signature"
   }
  },
  "pure": {
@@ -496,7 +526,9 @@
     "webp": {
      "locked": "pure/webp/limitless_locked.webp",
      "unlocked": "pure/webp/limitless_unlocked.webp"
-    }
+    },
+    "group": "Shooting",
+    "kind": "pure"
    },
    "unguardable": {
     "name": "Unguardable",
@@ -509,7 +541,9 @@
     "webp": {
      "locked": "pure/webp/unguardable_locked.webp",
      "unlocked": "pure/webp/unguardable_unlocked.webp"
-    }
+    },
+    "group": "Shooting",
+    "kind": "pure"
    },
    "launchpad": {
     "name": "Launch Pad",
@@ -522,7 +556,9 @@
     "webp": {
      "locked": "pure/webp/launchpad_locked.webp",
      "unlocked": "pure/webp/launchpad_unlocked.webp"
-    }
+    },
+    "group": "Finishing",
+    "kind": "pure"
    },
    "lockin": {
     "name": "Lock-In",
@@ -535,7 +571,9 @@
     "webp": {
      "locked": "pure/webp/lockin_locked.webp",
      "unlocked": "pure/webp/lockin_unlocked.webp"
-    }
+    },
+    "group": "Defense",
+    "kind": "pure"
    },
    "floorgeneral": {
     "name": "Floor General",
@@ -548,7 +586,9 @@
     "webp": {
      "locked": "pure/webp/floorgeneral_locked.webp",
      "unlocked": "pure/webp/floorgeneral_unlocked.webp"
-    }
+    },
+    "group": "Playmaking",
+    "kind": "pure"
    }
   }
  },
@@ -575,5 +615,12 @@
    "signature": "iso",
    "pure": "unguardable"
   }
- }
+ },
+ "categories": [
+  "Shooting",
+  "Playmaking",
+  "Defense",
+  "Finishing"
+ ],
+ "categoryRule": "The badges tab has exactly these four categories. A badge goes in the one that matches what it does. \"Signature\" and \"pure\" are badge types (who can earn them, how high they go), not categories or tabs."
 }

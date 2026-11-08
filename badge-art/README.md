@@ -8,7 +8,7 @@ All 20 badges in the gold-shield style. Each badge comes in five tiers that line
 | `webp/` | Game-ready art at 120×160, transparent, about 7 KB each (~740 KB for all 100). Use these in the game. |
 | `png/` | Masters at 240×320, transparent. Use them for store pages, marketing, or re-exporting at another size. |
 | `source/` | The original generated images, plus the tier reference the colours were sampled from. |
-| `manifest.json` | Each badge key with its name, group, stat counter (`c`), and a file path for every tier. |
+| `manifest.json` | Each badge key with its name, category (`group`), type (`kind`: core, signature or pure), stat counter (`c`), and a file path for every tier. |
 
 File names are `<key>_<tier>.webp` or `.png`. `key` is the badge's `k` in `BADGES`
 (`rim`, `atr`, `contact`, `range`, `elbow`, `cold`, `dime`, `handles`, `first`, `wall`,
@@ -55,9 +55,9 @@ There's a new archetype, `create` (Shot Creator), with three new badges in the s
 
 | Key | Badge | Type | Effect | Earned by (stat counter) |
 |---|---|---|---|---|
-| `stepback` | Step-Back Artist | Core, Shooting | Bigger green window on shots straight out of a step-back, quick stop or side-step, and the step-back creates a bit more space. | Shots made out of those moves (`rhy`, new) |
-| `tough` | Tough Shot Maker | Core, Shooting | A hand in your face hurts your jumpers less. | Contested jumpers made (`tough`, new) |
-| `iso` | Iso King | Signature, `arch:'create'` | One-on-one with the floor cleared, your defender's contests count half. | Buckets in isolation (`iso`, new) |
+| `stepback` | Step-Back Artist | Core · Shooting | Bigger green window on shots straight out of a step-back, quick stop or side-step, and the step-back creates a bit more space. | Shots made out of those moves (`rhy`, new) |
+| `tough` | Tough Shot Maker | Core · Shooting | A hand in your face hurts your jumpers less. | Contested jumpers made (`tough`, new) |
+| `iso` | Iso King | Signature (`arch:'create'`) · Shooting | One-on-one with the floor cleared, your defender's contests count half. | Buckets in isolation (`iso`, new) |
 
 The archetype, as the user set it:
 - **Primary:** shots on the move (pull-ups, step-backs, rhythm shots out of a move) and mid-range
@@ -70,3 +70,21 @@ The archetype, as the user set it:
 - **Pure badge (99 OVR):** `unguardable`
 
 Any build can earn the two new core badges. Like every other archetype, Shot Creator can take its linked ones to Hall of Fame.
+
+## Badge categories (the badges tab)
+
+The badges tab has exactly four categories: **Shooting, Playmaking, Defense, Finishing**. There is no
+"Signature" tab and no per-archetype tab. Every badge sits in the category that matches what it does.
+Signature and pure are badge *types* (they decide who can earn a badge and how high it goes), not categories.
+
+| Category | Badges |
+|---|---|
+| Shooting | Range Finder, Elbow Specialist, Ice Water, Catching Fire*, Trailer Three*, Step-Back Artist, Tough Shot Maker, Iso King*, Limitless†, Unguardable† |
+| Playmaking | Dime Dropper, String Handles, Burst Mode, Eyes in the Back*, Freight Train*, Floor General† |
+| Defense | No Easy Ones, Quick Hands, Swat Team, Board Bully, Shadow*, Paint Patrol*, Lock-In† |
+| Finishing | Glass Finisher, Above the Rim, Through Contact, Bulldog Finish*, Launch Pad† |
+
+\* signature badge (archetype-only) · † pure badge (99 OVR, pure build)
+
+In code: `BGROUPS` becomes `['Shooting','Playmaking','Defense','Finishing']`, and each signature badge's `g` becomes
+its category. Its `arch` field is unchanged, and it is still what makes a badge a signature badge.
