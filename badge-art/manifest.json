@@ -622,5 +622,6 @@
   "Defense",
   "Finishing"
  ],
- "categoryRule": "The badges tab has exactly these four categories. A badge goes in the one that matches what it does. \"Signature\" and \"pure\" are badge types (who can earn them, how high they go), not categories or tabs."
+ "categoryRule": "The badges tab has exactly these four categories. A badge goes in the one that matches what it does. \"Signature\" and \"pure\" are badge types (who can earn them, how high they go), not categories or tabs.",
+ "unearnableDisplay": "Show greyed out (locked art) in its category, with the reason; never hide. User decision."
 }

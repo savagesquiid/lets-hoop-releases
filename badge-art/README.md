@@ -88,3 +88,10 @@ Signature and pure are badge *types* (they decide who can earn a badge and how h
 
 In code: `BGROUPS` becomes `['Shooting','Playmaking','Defense','Finishing']`, and each signature badge's `g` becomes
 its category. Its `arch` field is unchanged, and it is still what makes a badge a signature badge.
+
+### Badges your build can't earn
+
+The user's decision: badges the current build can't earn (another archetype's signature badge, or a pure badge for a
+different build) still show in their category, **greyed out**, so players can see what other archetypes get.
+Use the `locked` art for them and say why, e.g. "Shot Creator signature" or "Pure Slasher at 99 OVR".
+Don't hide them.
