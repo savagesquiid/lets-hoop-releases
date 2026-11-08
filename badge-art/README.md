@@ -31,3 +31,20 @@ File names are `<key>_<tier>.webp` or `.png`. `key` is the badge's `k` in `BADGE
 - The dev badge editor (`plist('dev:bd', …)`).
 
 The `.badge` CSS class is also used for trophies and sponsor deals. Those are not badges, so leave them alone.
+
+## Pure archetype badges (`pure/`)
+
+Five extra badges, one per pure archetype family. Each is a single tier that unlocks at **99 OVR** for a
+pure build (both archetype slots from the same family). The shield is metallic red with a gold crown on top.
+
+| Key | Badge | Archetype | Effect |
+|---|---|---|---|
+| `limitless` | Limitless | Sharpshooter / Stretch | The green window does not shrink with distance. |
+| `unguardable` | Unguardable | Shot Creator | After a dribble move beats your man, the next pull-up or fadeaway within about 1 s gets a full green window, whatever the contest. |
+| `launchpad` | Launch Pad | Slasher | Dunks can start from further out, and dunks through contact still go down. |
+| `lockin` | Lock-In | Lockdown / Rim Protector | The player you guard can't heat up: hot streaks reset and badges like Catching Fire switch off. |
+| `floorgeneral` | Floor General | Playmaker | For 3 s after catching your pass, a teammate gets a bigger green window. |
+
+There are two states: `<key>_unlocked` and `<key>_locked` (greyed, for showing what the player is working toward).
+The files are 240×380 (PNG) or 120×190 (WebP). The bottom 320 px (160 px in WebP) is the shield, exactly the size of the
+other badges. The top 60 px (30 px) holds the crown, so line pure badges up with the rest by the bottom edge.

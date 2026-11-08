@@ -399,5 +399,90 @@
     "hof": "webp/pop_hof.webp"
    }
   }
+ },
+ "pure": {
+  "rule": "Single tier. Unlocks at 99 OVR for a pure build (both archetype slots from the same family).",
+  "states": [
+   "locked",
+   "unlocked"
+  ],
+  "sizes": {
+   "png": [
+    240,
+    380
+   ],
+   "webp": [
+    120,
+    190
+   ]
+  },
+  "layout": "Bottom 320 px (160 px in WebP) is the shield, the same size as the other badges; the top 60 px (30 px) is the gold crown.",
+  "badges": {
+   "limitless": {
+    "name": "Limitless",
+    "archetype": "Sharpshooter / Stretch",
+    "effect": "The green window does not shrink with distance.",
+    "png": {
+     "locked": "pure/png/limitless_locked.png",
+     "unlocked": "pure/png/limitless_unlocked.png"
+    },
+    "webp": {
+     "locked": "pure/webp/limitless_locked.webp",
+     "unlocked": "pure/webp/limitless_unlocked.webp"
+    }
+   },
+   "unguardable": {
+    "name": "Unguardable",
+    "archetype": "Shot Creator",
+    "effect": "After a dribble move beats your man, the next pull-up or fadeaway within about 1 second gets a full green window however hard it is contested.",
+    "png": {
+     "locked": "pure/png/unguardable_locked.png",
+     "unlocked": "pure/png/unguardable_unlocked.png"
+    },
+    "webp": {
+     "locked": "pure/webp/unguardable_locked.webp",
+     "unlocked": "pure/webp/unguardable_unlocked.webp"
+    }
+   },
+   "launchpad": {
+    "name": "Launch Pad",
+    "archetype": "Slasher",
+    "effect": "Dunks can start from further out, and dunks through contact still go down.",
+    "png": {
+     "locked": "pure/png/launchpad_locked.png",
+     "unlocked": "pure/png/launchpad_unlocked.png"
+    },
+    "webp": {
+     "locked": "pure/webp/launchpad_locked.webp",
+     "unlocked": "pure/webp/launchpad_unlocked.webp"
+    }
+   },
+   "lockin": {
+    "name": "Lock-In",
+    "archetype": "Lockdown / Rim Protector",
+    "effect": "The player you guard cannot heat up: their hot streaks reset and badges like Catching Fire switch off.",
+    "png": {
+     "locked": "pure/png/lockin_locked.png",
+     "unlocked": "pure/png/lockin_unlocked.png"
+    },
+    "webp": {
+     "locked": "pure/webp/lockin_locked.webp",
+     "unlocked": "pure/webp/lockin_unlocked.webp"
+    }
+   },
+   "floorgeneral": {
+    "name": "Floor General",
+    "archetype": "Playmaker",
+    "effect": "For 3 seconds after catching your pass, a teammate gets a bigger green window.",
+    "png": {
+     "locked": "pure/png/floorgeneral_locked.png",
+     "unlocked": "pure/png/floorgeneral_unlocked.png"
+    },
+    "webp": {
+     "locked": "pure/webp/floorgeneral_locked.webp",
+     "unlocked": "pure/webp/floorgeneral_unlocked.webp"
+    }
+   }
+  }
  }
 }
