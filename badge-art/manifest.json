@@ -398,6 +398,73 @@
     "gold": "webp/pop_gold.webp",
     "hof": "webp/pop_hof.webp"
    }
+  },
+  "stepback": {
+   "name": "Step-Back Artist",
+   "group": "Shooting",
+   "stat": "rhy",
+   "effect": "Bigger green window on shots straight out of a step-back, quick stop or side-step, and the step-back creates a bit more space.",
+   "earnedBy": "Shots made out of a step-back, quick stop or side-step (rhythm shots)",
+   "png": {
+    "locked": "png/stepback_locked.png",
+    "bronze": "png/stepback_bronze.png",
+    "silver": "png/stepback_silver.png",
+    "gold": "png/stepback_gold.png",
+    "hof": "png/stepback_hof.png"
+   },
+   "webp": {
+    "locked": "webp/stepback_locked.webp",
+    "bronze": "webp/stepback_bronze.webp",
+    "silver": "webp/stepback_silver.webp",
+    "gold": "webp/stepback_gold.webp",
+    "hof": "webp/stepback_hof.webp"
+   },
+   "new": true
+  },
+  "tough": {
+   "name": "Tough Shot Maker",
+   "group": "Shooting",
+   "stat": "tough",
+   "effect": "A hand in your face hurts your jumpers less.",
+   "earnedBy": "Contested jumpers made",
+   "png": {
+    "locked": "png/tough_locked.png",
+    "bronze": "png/tough_bronze.png",
+    "silver": "png/tough_silver.png",
+    "gold": "png/tough_gold.png",
+    "hof": "png/tough_hof.png"
+   },
+   "webp": {
+    "locked": "webp/tough_locked.webp",
+    "bronze": "webp/tough_bronze.webp",
+    "silver": "webp/tough_silver.webp",
+    "gold": "webp/tough_gold.webp",
+    "hof": "webp/tough_hof.webp"
+   },
+   "new": true
+  },
+  "iso": {
+   "name": "Iso King",
+   "group": "Signature",
+   "stat": "iso",
+   "effect": "One-on-one with the floor cleared, your defender's contests count half.",
+   "earnedBy": "Buckets in isolation",
+   "png": {
+    "locked": "png/iso_locked.png",
+    "bronze": "png/iso_bronze.png",
+    "silver": "png/iso_silver.png",
+    "gold": "png/iso_gold.png",
+    "hof": "png/iso_hof.png"
+   },
+   "webp": {
+    "locked": "webp/iso_locked.webp",
+    "bronze": "webp/iso_bronze.webp",
+    "silver": "webp/iso_silver.webp",
+    "gold": "webp/iso_gold.webp",
+    "hof": "webp/iso_hof.webp"
+   },
+   "archetype": "create",
+   "new": true
   }
  },
  "pure": {
@@ -483,6 +550,30 @@
      "unlocked": "pure/webp/floorgeneral_unlocked.webp"
     }
    }
+  }
+ },
+ "archetypes": {
+  "create": {
+   "name": "Shot Creator",
+   "new": true,
+   "primary": "shots on the move (pull-ups, step-backs, rhythm shots out of a move) and mid-range",
+   "secondary": "speed, layups",
+   "average": "standing three-pointers (neither a strength nor a weakness)",
+   "weak": "blocks, rebounding, interior defense",
+   "positions": [
+    "PG",
+    "SG",
+    "SF",
+    "PF",
+    "C"
+   ],
+   "linkedBadges": [
+    "stepback",
+    "tough",
+    "elbow"
+   ],
+   "signature": "iso",
+   "pure": "unguardable"
   }
  }
 }

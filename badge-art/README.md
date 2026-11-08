@@ -48,3 +48,25 @@ pure build (both archetype slots from the same family). The shield is metallic r
 There are two states: `<key>_unlocked` and `<key>_locked` (greyed, for showing what the player is working toward).
 The files are 240×380 (PNG) or 120×190 (WebP). The bottom 320 px (160 px in WebP) is the shield, exactly the size of the
 other badges. The top 60 px (30 px) holds the crown, so line pure badges up with the rest by the bottom edge.
+
+## Shot Creator archetype (new)
+
+There's a new archetype, `create` (Shot Creator), with three new badges in the same gold style and all five tiers.
+
+| Key | Badge | Type | Effect | Earned by (stat counter) |
+|---|---|---|---|---|
+| `stepback` | Step-Back Artist | Core, Shooting | Bigger green window on shots straight out of a step-back, quick stop or side-step, and the step-back creates a bit more space. | Shots made out of those moves (`rhy`, new) |
+| `tough` | Tough Shot Maker | Core, Shooting | A hand in your face hurts your jumpers less. | Contested jumpers made (`tough`, new) |
+| `iso` | Iso King | Signature, `arch:'create'` | One-on-one with the floor cleared, your defender's contests count half. | Buckets in isolation (`iso`, new) |
+
+The archetype, as the user set it:
+- **Primary:** shots on the move (pull-ups, step-backs, rhythm shots out of a move) and mid-range
+- **Secondary:** speed, layups
+- **Average:** standing threes (neither a strength nor a weakness)
+- **Weak:** blocks, rebounding, interior defense
+- **Positions:** all five
+- **Linked core badges (`aff`):** `stepback`, `tough`, `elbow`
+- **Signature:** `iso`
+- **Pure badge (99 OVR):** `unguardable`
+
+Any build can earn the two new core badges. Like every other archetype, Shot Creator can take its linked ones to Hall of Fame.
