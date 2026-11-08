@@ -5,18 +5,19 @@
 Six circular "burning core" crests: a dark charred disc, a molten-gold pictogram glowing from inside with heat cracks,
 and an outer glow in the archetype's colour. Archetypes in the same family share a crest.
 
-| Crest | Archetypes | Pictogram | Glow |
-|---|---|---|---|
-| shooter | Sharpshooter, Stretch big | crosshair over a ball | amber |
-| lockdown | Lockdown, Rim protector | open palm, stop | red |
-| slasher | Slasher | lightning bolt through a ball | orange |
-| playmaker | Playmaker | ball sending out pass arrows | cyan |
-| creator | Shot Creator | crossover dribble path ending at the ball | magenta |
-| post | Post scorer | mailbox with a ball as the mail | blue |
+| Key | Crest | Archetypes | Pictogram | Glow |
+|---|---|---|---|---|
+| `shooter` | Sharpshooter / Stretch | Sharpshooter, Stretch big | crosshair over a ball | amber `#FFB020` |
+| `lockdown` | Lockdown / Rim protector | Lockdown, Rim protector | open palm, stop | red `#E5402C` |
+| `slasher` | Slasher | Slasher | lightning bolt through a ball | orange `#FF7A1A` |
+| `playmaker` | Playmaker | Playmaker | ball sending out pass arrows | cyan `#38C6F4` |
+| `creator` | Shot Creator | Shot Creator | crossover dribble path ending at the ball | magenta `#E040FB` |
+| `post` | Post scorer | Post scorer | mailbox with a ball as the mail | blue `#2F7FE0` |
 
 - **Where it shows:** it replaces the Ego mode icon while Ego is active (it swaps in and glows; the Ego bar stays the
   timer), and it's the 38 px emblem on the player panel.
 - **Dual builds:** while Ego is active, the crest crossfades smoothly back and forth between the main and the secondary
   archetype's crest. A build whose two archetypes share a crest shows just that one and doesn't crossfade.
-- **Files:**  256×256 and  128×128, both transparent. They're checked at 60 px (the Ego
-  button) and 38 px (the emblem).
+- **Files:** `png/<key>.png` 256×256 and `webp/<key>.webp` 128×128, both transparent. The disc is about 80 % of the
+  width and the glow fades out to the edge. They're checked at 60 px (the Ego button) and 38 px (the emblem).
+- **Sources:** `source/` holds the original generated images.
