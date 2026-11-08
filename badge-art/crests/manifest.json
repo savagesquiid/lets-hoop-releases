@@ -1,0 +1,86 @@
+{
+ "release": "NEXT UPDATE. Not part of the current work. Do not implement until the user says so.",
+ "use": "Circular archetype crest. Replaces the Ego mode icon while Ego is active (ignite only: it swaps in and glows; the Ego bar stays the timer). Also the 38 px emblem on the player panel.",
+ "dualBuild": "While Ego is active, a dual build crossfades smoothly back and forth between its main and secondary archetype crests. Archetypes in the same family share one crest, so a same-family build shows one crest and does not crossfade.",
+ "sizes": {
+  "png": [
+   256,
+   256
+  ],
+  "webp": [
+   128,
+   128
+  ]
+ },
+ "layout": "Disc fills the centre; the coloured glow is soft and transparent toward the edge. The disc is about 80% of the image width.",
+ "crests": {
+  "shooter": {
+   "name": "Sharpshooter / Stretch",
+   "archetypes": [
+    "shoot",
+    "stretch"
+   ],
+   "glow": "amber",
+   "glowHex": "#FFB020",
+   "pictogram": "Crosshair over a ball",
+   "png": "png/shooter.png",
+   "webp": "webp/shooter.webp"
+  },
+  "lockdown": {
+   "name": "Lockdown / Rim protector",
+   "archetypes": [
+    "lock",
+    "rim"
+   ],
+   "glow": "red",
+   "glowHex": "#E5402C",
+   "pictogram": "Open palm, stop",
+   "png": "png/lockdown.png",
+   "webp": "webp/lockdown.webp"
+  },
+  "slasher": {
+   "name": "Slasher",
+   "archetypes": [
+    "slash"
+   ],
+   "glow": "orange",
+   "glowHex": "#FF7A1A",
+   "pictogram": "Lightning bolt through a ball",
+   "png": "png/slasher.png",
+   "webp": "webp/slasher.webp"
+  },
+  "playmaker": {
+   "name": "Playmaker",
+   "archetypes": [
+    "play"
+   ],
+   "glow": "cyan",
+   "glowHex": "#38C6F4",
+   "pictogram": "Ball sending out pass arrows",
+   "png": "png/playmaker.png",
+   "webp": "webp/playmaker.webp"
+  },
+  "creator": {
+   "name": "Shot Creator",
+   "archetypes": [
+    "create"
+   ],
+   "glow": "magenta",
+   "glowHex": "#E040FB",
+   "pictogram": "Crossover dribble path ending at the ball",
+   "png": "png/creator.png",
+   "webp": "webp/creator.webp"
+  },
+  "post": {
+   "name": "Post scorer",
+   "archetypes": [
+    "post"
+   ],
+   "glow": "blue",
+   "glowHex": "#2F7FE0",
+   "pictogram": "Mailbox with a ball as the mail",
+   "png": "png/post.png",
+   "webp": "webp/post.webp"
+  }
+ }
+}
