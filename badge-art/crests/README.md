@@ -31,5 +31,11 @@ The crests ship together with a change to how Ego mode works:
 - **Dual build:** **+5** to the main archetype's categories and **+3** to the secondary archetype's.
 - This replaces the current Ego boost. The Ego crest swap and the dual-build crossfade above show when this boost is on.
 
-Confirm with the user before building: which attributes count as an archetype's categories (its primary stats only, or
-primary plus secondary). Also, if a stat belongs to both archetypes in a dual build, does it get +5 or +8?
+- **Categories** are both the archetype's primary and its secondary attributes.
+- **Overlap:** if an attribute is in both archetypes of a dual build, the boosts add up: +5 + 3 = **+8**, the same as
+  the pure-build max. No attribute gets more than +8 from Ego, and Ego never takes a rating past 99.
+  Example, Shot Creator (main) + Playmaker (secondary): mid-range +8, speed +8, shots on the move +5, layups +5,
+  passing +3, ball handling +3, steals +3, everything else +0.
+
+Still to confirm with the user: that the overlap reading above is right (sent to them for a yes or no), and that
+"the limit" means the +8 max, with ratings also capped at 99.
