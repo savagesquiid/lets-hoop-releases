@@ -26,9 +26,10 @@ and an outer glow in the archetype's colour. Archetypes in the same family share
 
 The crests ship together with a change to how Ego mode works:
 
-- **Ego boosts only the player's own archetype categories:** +5 to the attributes in their archetype's categories.
-- **A pure build** (both archetypes from the same family) gets **+8** instead.
+- **Ego boosts only the player's own archetype categories.**
+- **Pure build** (both archetypes from the same family): a flat **+8** to its archetype categories.
+- **Dual build:** **+5** to the main archetype's categories and **+3** to the secondary archetype's.
 - This replaces the current Ego boost. The Ego crest swap and the dual-build crossfade above show when this boost is on.
 
 Confirm with the user before building: which attributes count as an archetype's categories (its primary stats only, or
-primary plus secondary), and for a dual build, whether both archetypes' categories get the +5.
+primary plus secondary). Also, if a stat belongs to both archetypes in a dual build, does it get +5 or +8?

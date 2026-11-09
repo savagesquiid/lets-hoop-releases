@@ -87,11 +87,16 @@
   "release": "NEXT UPDATE, together with the crests. Not part of the current work.",
   "change": "Ego mode now boosts only the attributes in the player's own archetype categories.",
   "boost": {
-   "dualBuild": 5,
-   "pureBuild": 8
+   "pureBuild": {
+    "all": 8
+   },
+   "dualBuild": {
+    "mainArchetype": 5,
+    "secondaryArchetype": 3
+   }
   },
-  "rule": "+5 to the attributes in the build's archetype categories; a pure build (both archetypes from the same family) gets +8 instead.",
+  "rule": "Pure build (both archetypes from the same family): a flat +8 to its archetype categories. Dual build: +5 to the main archetype's categories and +3 to the secondary archetype's.",
   "replaces": "The current Ego boost.",
-  "toConfirmWithUser": "Which attributes count as an archetype's categories (its primary stats only, or primary plus secondary), and, for a dual build, whether both archetypes' categories get the +5."
+  "toConfirmWithUser": "Which attributes count as an archetype's categories (its primary stats only, or primary plus secondary). If a stat belongs to both archetypes in a dual build, does it get +5 or +8?"
  }
 }
