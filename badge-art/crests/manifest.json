@@ -86,29 +86,26 @@
  "egoMode": {
   "release": "NEXT UPDATE, together with the crests. Not part of the current work.",
   "change": "Ego mode now boosts only the attributes in the player's own archetype categories.",
-  "boost": {
-   "pureBuild": {
-    "all": 8
-   },
-   "dualBuild": {
-    "mainArchetype": 5,
-    "secondaryArchetype": 3
-   }
-  },
-  "rule": "Pure build (both archetypes from the same family): a flat +8 to its archetype categories. Dual build: +5 to the main archetype's categories and +3 to the secondary archetype's.",
   "replaces": "The current Ego boost.",
-  "toConfirmWithUser": "Confirm the overlap reading (+5 and +3 add to +8), and that 'the limit' means the +8 max and that ratings also stay capped at 99.",
-  "categories": "An archetype's categories are BOTH its primary and its secondary attributes (user decision).",
-  "overlap": "If an attribute is in both archetypes of a dual build, the boosts add: +5 (main) + 3 (secondary) = +8, the same as the pure-build max. No attribute gets more than +8 from Ego, and Ego never takes a rating past 99. (Claude's reading of the user's 'adds up to the limit', sent to the user to confirm.)",
+  "rule": "FINAL (user decision). Ego gives point pools split EVENLY across the archetype's attributes (primary and secondary attributes both count). Dual build: the main archetype's pool is 8 points, the secondary archetype's pool is 5 points. Pure build: one pool of 10 points. An attribute in both archetypes gets points from both pools. Ratings never pass 99.",
+  "pools": {
+   "dual": {
+    "main": 8,
+    "secondary": 5
+   },
+   "pure": 10
+  },
+  "split": "even",
+  "rounding": "Proposal, confirm with the user: when a pool does not divide evenly, give the leftover points one each to the archetype's primary attributes first.",
   "example": {
    "build": "Shot Creator (main) + Playmaker (secondary)",
-   "mid": 8,
-   "spd": 8,
-   "movingShots": 5,
-   "lay": 5,
-   "pas": 3,
-   "hdl": 3,
-   "stl": 3,
+   "movingShots": 2,
+   "mid": 3,
+   "spd": 3,
+   "lay": 2,
+   "pas": 1,
+   "hdl": 1,
+   "stl": 1,
    "other": 0
   }
  }
