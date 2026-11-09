@@ -17,8 +17,7 @@
   "shooter": {
    "name": "Sharpshooter / Stretch",
    "archetypes": [
-    "shoot",
-    "stretch"
+    "Sharpshooter (Stretch at PF and C)"
    ],
    "glow": "amber",
    "glowHex": "#FFB020",
@@ -29,8 +28,7 @@
   "lockdown": {
    "name": "Lockdown / Rim protector",
    "archetypes": [
-    "lock",
-    "rim"
+    "Lockdown (Rim Protector at PF and C)"
    ],
    "glow": "red",
    "glowHex": "#E5402C",
@@ -41,7 +39,7 @@
   "slasher": {
    "name": "Slasher",
    "archetypes": [
-    "slash"
+    "Slasher, as shown at PG, SG and SF"
    ],
    "glow": "orange",
    "glowHex": "#FF7A1A",
@@ -52,7 +50,7 @@
   "playmaker": {
    "name": "Playmaker",
    "archetypes": [
-    "play"
+    "Playmaker"
    ],
    "glow": "cyan",
    "glowHex": "#38C6F4",
@@ -63,7 +61,7 @@
   "creator": {
    "name": "Shot Creator",
    "archetypes": [
-    "create"
+    "Shot creator"
    ],
    "glow": "magenta",
    "glowHex": "#E040FB",
@@ -72,9 +70,9 @@
    "webp": "webp/creator.webp"
   },
   "post": {
-   "name": "Post scorer",
+   "name": "Post (Slasher at PF and C)",
    "archetypes": [
-    "post"
+    "Slasher, as shown as Post at PF and C"
    ],
    "glow": "blue",
    "glowHex": "#2F7FE0",
@@ -108,5 +106,6 @@
    "stl": 1,
    "other": 0
   }
- }
+ },
+ "archetypeModel": "Five archetypes (roadmap, Nov 8): Sharpshooter/Stretch, Lockdown/Rim Protector, Slasher/Post, Playmaker, Shot creator. The crest follows the name the player sees: Slasher uses the bolt crest at PG/SG/SF and the mailbox crest when it shows as Post at PF/C (user decision, Nov 9)."
 }

@@ -5,14 +5,17 @@
 Six circular "burning core" crests: a dark charred disc, a molten-gold pictogram glowing from inside with heat cracks,
 and an outer glow in the archetype's colour. Archetypes in the same family share a crest.
 
-| Key | Crest | Archetypes | Pictogram | Glow |
+The game has five archetypes (see the roadmap). The crest follows the archetype **name the player sees**, so
+Slasher has two crests: the bolt for guards and wings, and the mailbox when it shows as Post at PF and C.
+
+| Key | Crest | Shown for | Pictogram | Glow |
 |---|---|---|---|---|
-| `shooter` | Sharpshooter / Stretch | Sharpshooter, Stretch big | crosshair over a ball | amber `#FFB020` |
-| `lockdown` | Lockdown / Rim protector | Lockdown, Rim protector | open palm, stop | red `#E5402C` |
-| `slasher` | Slasher | Slasher | lightning bolt through a ball | orange `#FF7A1A` |
+| `shooter` | Sharpshooter / Stretch | Sharpshooter (Stretch at PF and C) | crosshair over a ball | amber `#FFB020` |
+| `lockdown` | Lockdown / Rim Protector | Lockdown (Rim Protector at PF and C) | open palm, stop | red `#E5402C` |
+| `slasher` | Slasher | Slasher at PG, SG and SF | lightning bolt through a ball | orange `#FF7A1A` |
+| `post` | Post | Slasher shown as Post at PF and C | mailbox with a ball as the mail | blue `#2F7FE0` |
 | `playmaker` | Playmaker | Playmaker | ball sending out pass arrows | cyan `#38C6F4` |
-| `creator` | Shot Creator | Shot Creator | crossover dribble path ending at the ball | magenta `#E040FB` |
-| `post` | Post scorer | Post scorer | mailbox with a ball as the mail | blue `#2F7FE0` |
+| `creator` | Shot creator | Shot creator | crossover path ending at the ball | magenta `#E040FB` |
 
 - **Where it shows:** it replaces the Ego mode icon while Ego is active (it swaps in and glows; the Ego bar stays the
   timer), and it's the 38 px emblem on the player panel.
