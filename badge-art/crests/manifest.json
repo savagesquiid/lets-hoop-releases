@@ -82,5 +82,16 @@
    "png": "png/post.png",
    "webp": "webp/post.webp"
   }
+ },
+ "egoMode": {
+  "release": "NEXT UPDATE, together with the crests. Not part of the current work.",
+  "change": "Ego mode now boosts only the attributes in the player's own archetype categories.",
+  "boost": {
+   "dualBuild": 5,
+   "pureBuild": 8
+  },
+  "rule": "+5 to the attributes in the build's archetype categories; a pure build (both archetypes from the same family) gets +8 instead.",
+  "replaces": "The current Ego boost.",
+  "toConfirmWithUser": "Which attributes count as an archetype's categories (its primary stats only, or primary plus secondary), and, for a dual build, whether both archetypes' categories get the +5."
  }
 }

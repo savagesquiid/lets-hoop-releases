@@ -21,3 +21,14 @@ and an outer glow in the archetype's colour. Archetypes in the same family share
 - **Files:** `png/<key>.png` 256×256 and `webp/<key>.webp` 128×128, both transparent. The disc is about 80 % of the
   width and the glow fades out to the edge. They're checked at 60 px (the Ego button) and 38 px (the emblem).
 - **Sources:** `source/` holds the original generated images.
+
+## Ego mode change (also next update)
+
+The crests ship together with a change to how Ego mode works:
+
+- **Ego boosts only the player's own archetype categories:** +5 to the attributes in their archetype's categories.
+- **A pure build** (both archetypes from the same family) gets **+8** instead.
+- This replaces the current Ego boost. The Ego crest swap and the dual-build crossfade above show when this boost is on.
+
+Confirm with the user before building: which attributes count as an archetype's categories (its primary stats only, or
+primary plus secondary), and for a dual build, whether both archetypes' categories get the +5.
