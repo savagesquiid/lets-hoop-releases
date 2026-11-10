@@ -1,0 +1,130 @@
+{
+ "release": "next update (street-night UI revamp)",
+ "canvas": "https://claude.ai/artifact/WDcz4SMRtSgjg9bx9c59At",
+ "canvasAssetIds": {
+  "wordmark/wordmark-wide.png": "cc0288a3dd92746a3de251ac9d59effb",
+  "wordmark/wordmark-compact.png": "71eb9cc5645a50f28afceb242af3d23f",
+  "wordmark/wordmark-stacked.png": "7ce1e92e9a4e60208f515f10aec1cde1",
+  "teams/png/eagle.png": "c9554628b85172d1983b120c8aa8ea9f",
+  "teams/png/comet.png": "77b02803487e231c20a2e9f1c7134385",
+  "teams/png/bison.png": "38788f4d264c569087a76ab000d4f730",
+  "teams/png/wolf.png": "ffabad74628226410628d826285e8b87",
+  "teams/png/fox.png": "391d3a3f7ecd948eae2a741c92ebac83",
+  "teams/png/cobra.png": "36556a60b1dcb6c86c05eba1f71f43db",
+  "teams/png/phoenix.png": "2ce50883bf6970a42002272b32049e2c",
+  "teams/png/bear.png": "fdd35193e1ba386e73e2bb9ef6f3ebc2",
+  "teams/png/shark.png": "3b67fe4bb7446edf1f49ea83db5fe82e",
+  "teams/png/lion.png": "ebab56f04bdd0fceb92801567ef38088",
+  "teams/png/hornet.png": "d47397d93cf2a47c8a2b09d70f43c50e",
+  "teams/png/tornado.png": "aadeae68d58c7cfc8fa426feb1631b49",
+  "brush/stroke-1.png": "d939031630089761c4faee3ebc818495",
+  "brush/stroke-2.png": "f8422a6810a2ec3181287e16ad850a2b",
+  "brush/stroke-3.png": "c118362f83bd0b59d51928df072d1e28",
+  "brush/stroke-4.png": "09b9ef70516f7a2f35f4b1ba85cd5fe4",
+  "frames/frame-normal.png": "ab6ee76e23265f6ac86d555ed0c0434d",
+  "frames/frame-highlight.png": "560e611b423a24c2cca8272949d3db1f",
+  "icons/png128/bracket.png": "11c969ca9435d93e10fde5483c79b890",
+  "icons/png128/home.png": "b463d16c39fab0b624cd2732dbcae8cc",
+  "icons/png128/hpcoin.png": "45ef596ebb3f804726575edaf6855dec",
+  "icons/png128/life.png": "296f9b219652b3725bfe166b12fe0962",
+  "icons/png128/more.png": "666679ce992dbb7f0573f819ef464075",
+  "icons/png128/myplayer.png": "baf35ad90a64d68d9127a4df786be23f",
+  "icons/png128/online.png": "1994d065b35e08f59c692a3673721fde",
+  "icons/png128/settings.png": "5a019d6acb14a416346349ba8f7cb1cd",
+  "icons/png128/store-celebration.png": "db21add14a989fd07caf30d8df49840f",
+  "icons/png128/store-dribble.png": "d02d42335b5e547ad9a54601a508e14b",
+  "icons/png128/store-dunk.png": "2075bc9d87c3edaf8f55cdbe2d61677e",
+  "icons/png128/store-jumpshot.png": "f35b2bcc6d6ab723d4bf0d7faf57f9b9",
+  "icons/png128/store.png": "af1fa5c23e2ea52cd5524decd3a662dc",
+  "icons/png128/train.png": "cea83ab138102c65af7a5fc6b0f7607d"
+ },
+ "groups": {
+  "wordmark": {
+   "files": [
+    "wordmark/wordmark-wide",
+    "wordmark/wordmark-compact",
+    "wordmark/wordmark-stacked"
+   ],
+   "formats": [
+    "png",
+    "webp"
+   ],
+   "sizes": {
+    "wide": "1024x271",
+    "compact": "400x106",
+    "stacked": "1024x817"
+   },
+   "use": "wide = title/splash/desktop header; compact = phone header and rail top; stacked = loading screen. Full colour on transparent, don't tint."
+  },
+  "brush": {
+   "files": [
+    "brush/stroke-1..4"
+   ],
+   "formats": [
+    "png",
+    "webp"
+   ],
+   "size": "600x80",
+   "use": "White masks: tint with CSS mask-image + background-color (or canvas tint). Label tags, active rail item, active tab chip edge. 1 medium, 2 thin with long tail, 3 thick, 4 thin both ends."
+  },
+  "frames": {
+   "files": [
+    "frames/frame-normal",
+    "frames/frame-highlight"
+   ],
+   "formats": [
+    "png",
+    "webp"
+   ],
+   "size": "256x256",
+   "nineSlice": 48,
+   "use": "White masks, centre empty. border-image-source / mask with slice 48 fill-less; tint to the card accent. Highlight has a soft outer glow and an inner line, use for selected/feature cards."
+  },
+  "icons": {
+   "files": [
+    "icons/<name>.svg",
+    "icons/png128/<name>.png"
+   ],
+   "names": [
+    "home",
+    "train",
+    "bracket",
+    "myplayer",
+    "online",
+    "store",
+    "life",
+    "settings",
+    "more",
+    "hpcoin",
+    "store-jumpshot",
+    "store-dribble",
+    "store-dunk",
+    "store-celebration"
+   ],
+   "use": "SVG on a 24 grid, stroke=currentColor (set color to tint, add drop-shadow for neon). PNGs are white 128px for canvas/WebGL. store-* are the Store category chips."
+  },
+  "teams": {
+   "files": [
+    "teams/png/<name>.png (256)",
+    "teams/webp/<name>.webp (128)"
+   ],
+   "names": [
+    "eagle",
+    "comet",
+    "bison",
+    "wolf",
+    "fox",
+    "cobra",
+    "phoenix",
+    "bear",
+    "shark",
+    "lion",
+    "hornet",
+    "tornado"
+   ],
+   "style": "Spray-paint die-cut stickers, mascot only, no lettering. Deliberately different from the glowing Ego archetype crests.",
+   "use": "Opponent team icons (matchday card, bracket, standings). Full colour, don't tint. Team name goes beside it in the UI."
+  }
+ },
+ "sources": "source/ holds the original generated images."
+}
