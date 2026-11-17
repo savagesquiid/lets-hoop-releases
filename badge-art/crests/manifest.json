@@ -1,0 +1,111 @@
+{
+ "release": "NEXT UPDATE. Not part of the current work. Do not implement until the user says so.",
+ "use": "Circular archetype crest. Replaces the Ego mode icon while Ego is active (ignite only: it swaps in and glows; the Ego bar stays the timer). Also the 38 px emblem on the player panel.",
+ "dualBuild": "While Ego is active, a dual build crossfades smoothly back and forth between its main and secondary archetype crests. Archetypes in the same family share one crest, so a same-family build shows one crest and does not crossfade.",
+ "sizes": {
+  "png": [
+   256,
+   256
+  ],
+  "webp": [
+   128,
+   128
+  ]
+ },
+ "layout": "Disc fills the centre; the coloured glow is soft and transparent toward the edge. The disc is about 80% of the image width.",
+ "crests": {
+  "shooter": {
+   "name": "Sharpshooter / Stretch",
+   "archetypes": [
+    "Sharpshooter (Stretch at PF and C)"
+   ],
+   "glow": "amber",
+   "glowHex": "#FFB020",
+   "pictogram": "Crosshair over a ball",
+   "png": "png/shooter.png",
+   "webp": "webp/shooter.webp"
+  },
+  "lockdown": {
+   "name": "Lockdown / Rim protector",
+   "archetypes": [
+    "Lockdown (Rim Protector at PF and C)"
+   ],
+   "glow": "red",
+   "glowHex": "#E5402C",
+   "pictogram": "Open palm, stop",
+   "png": "png/lockdown.png",
+   "webp": "webp/lockdown.webp"
+  },
+  "slasher": {
+   "name": "Slasher",
+   "archetypes": [
+    "Slasher, as shown at PG, SG and SF"
+   ],
+   "glow": "orange",
+   "glowHex": "#FF7A1A",
+   "pictogram": "Lightning bolt through a ball",
+   "png": "png/slasher.png",
+   "webp": "webp/slasher.webp"
+  },
+  "playmaker": {
+   "name": "Playmaker",
+   "archetypes": [
+    "Playmaker"
+   ],
+   "glow": "cyan",
+   "glowHex": "#38C6F4",
+   "pictogram": "Ball sending out pass arrows",
+   "png": "png/playmaker.png",
+   "webp": "webp/playmaker.webp"
+  },
+  "creator": {
+   "name": "Shot Creator",
+   "archetypes": [
+    "Shot creator"
+   ],
+   "glow": "magenta",
+   "glowHex": "#E040FB",
+   "pictogram": "Crossover dribble path ending at the ball",
+   "png": "png/creator.png",
+   "webp": "webp/creator.webp"
+  },
+  "post": {
+   "name": "Post (Slasher at PF and C)",
+   "archetypes": [
+    "Slasher, as shown as Post at PF and C"
+   ],
+   "glow": "blue",
+   "glowHex": "#2F7FE0",
+   "pictogram": "Mailbox with a ball as the mail",
+   "png": "png/post.png",
+   "webp": "webp/post.webp"
+  }
+ },
+ "egoMode": {
+  "release": "NEXT UPDATE, together with the crests. Not part of the current work.",
+  "change": "Ego mode now boosts only the attributes in the player's own archetype categories.",
+  "replaces": "The current Ego boost.",
+  "rule": "FINAL (user decision). Ego gives point pools split EVENLY across the archetype's attributes (primary and secondary attributes both count). Dual build: the main archetype's pool is 8 points, the secondary archetype's pool is 5 points. Pure build: one pool of 10 points. An attribute in both archetypes gets points from both pools. Ratings never pass 99.",
+  "pools": {
+   "dual": {
+    "main": 8,
+    "secondary": 5
+   },
+   "pure": 10
+  },
+  "split": "even",
+  "rounding": "Proposal, confirm with the user: when a pool does not divide evenly, give the leftover points one each to the archetype's primary attributes first.",
+  "example": {
+   "build": "Shot Creator (main) + Playmaker (secondary)",
+   "movingShots": 2,
+   "mid": 3,
+   "spd": 3,
+   "lay": 2,
+   "pas": 1,
+   "hdl": 1,
+   "stl": 1,
+   "other": 0
+  }
+ },
+ "archetypeModel": "Five archetypes (roadmap, Nov 8): Sharpshooter/Stretch, Lockdown/Rim Protector, Slasher/Post, Playmaker, Shot creator. The crest follows the name the player sees: Slasher uses the bolt crest at PG/SG/SF and the mailbox crest when it shows as Post at PF/C (user decision, Nov 9)."
+}

@@ -1,0 +1,627 @@
+{
+ "version": 1,
+ "tiers": [
+  "locked",
+  "bronze",
+  "silver",
+  "gold",
+  "hof"
+ ],
+ "tierIndex": "matches TIER in the game: 0 Not earned, 1 Bronze, 2 Silver, 3 Gold, 4 Hall of Fame",
+ "sizes": {
+  "png": [
+   240,
+   320
+  ],
+  "webp": [
+   120,
+   160
+  ]
+ },
+ "badges": {
+  "rim": {
+   "name": "Glass Finisher",
+   "group": "Finishing",
+   "stat": "lay",
+   "png": {
+    "locked": "png/rim_locked.png",
+    "bronze": "png/rim_bronze.png",
+    "silver": "png/rim_silver.png",
+    "gold": "png/rim_gold.png",
+    "hof": "png/rim_hof.png"
+   },
+   "webp": {
+    "locked": "webp/rim_locked.webp",
+    "bronze": "webp/rim_bronze.webp",
+    "silver": "webp/rim_silver.webp",
+    "gold": "webp/rim_gold.webp",
+    "hof": "webp/rim_hof.webp"
+   },
+   "kind": "core"
+  },
+  "atr": {
+   "name": "Above the Rim",
+   "group": "Finishing",
+   "stat": "dnk",
+   "png": {
+    "locked": "png/atr_locked.png",
+    "bronze": "png/atr_bronze.png",
+    "silver": "png/atr_silver.png",
+    "gold": "png/atr_gold.png",
+    "hof": "png/atr_hof.png"
+   },
+   "webp": {
+    "locked": "webp/atr_locked.webp",
+    "bronze": "webp/atr_bronze.webp",
+    "silver": "webp/atr_silver.webp",
+    "gold": "webp/atr_gold.webp",
+    "hof": "webp/atr_hof.webp"
+   },
+   "kind": "core"
+  },
+  "contact": {
+   "name": "Through Contact",
+   "group": "Finishing",
+   "stat": "and1",
+   "png": {
+    "locked": "png/contact_locked.png",
+    "bronze": "png/contact_bronze.png",
+    "silver": "png/contact_silver.png",
+    "gold": "png/contact_gold.png",
+    "hof": "png/contact_hof.png"
+   },
+   "webp": {
+    "locked": "webp/contact_locked.webp",
+    "bronze": "webp/contact_bronze.webp",
+    "silver": "webp/contact_silver.webp",
+    "gold": "webp/contact_gold.webp",
+    "hof": "webp/contact_hof.webp"
+   },
+   "kind": "core"
+  },
+  "range": {
+   "name": "Range Finder",
+   "group": "Shooting",
+   "stat": "thr",
+   "png": {
+    "locked": "png/range_locked.png",
+    "bronze": "png/range_bronze.png",
+    "silver": "png/range_silver.png",
+    "gold": "png/range_gold.png",
+    "hof": "png/range_hof.png"
+   },
+   "webp": {
+    "locked": "webp/range_locked.webp",
+    "bronze": "webp/range_bronze.webp",
+    "silver": "webp/range_silver.webp",
+    "gold": "webp/range_gold.webp",
+    "hof": "webp/range_hof.webp"
+   },
+   "kind": "core"
+  },
+  "elbow": {
+   "name": "Elbow Specialist",
+   "group": "Shooting",
+   "stat": "mid",
+   "png": {
+    "locked": "png/elbow_locked.png",
+    "bronze": "png/elbow_bronze.png",
+    "silver": "png/elbow_silver.png",
+    "gold": "png/elbow_gold.png",
+    "hof": "png/elbow_hof.png"
+   },
+   "webp": {
+    "locked": "webp/elbow_locked.webp",
+    "bronze": "webp/elbow_bronze.webp",
+    "silver": "webp/elbow_silver.webp",
+    "gold": "webp/elbow_gold.webp",
+    "hof": "webp/elbow_hof.webp"
+   },
+   "kind": "core"
+  },
+  "cold": {
+   "name": "Ice Water",
+   "group": "Shooting",
+   "stat": "clutch",
+   "png": {
+    "locked": "png/cold_locked.png",
+    "bronze": "png/cold_bronze.png",
+    "silver": "png/cold_silver.png",
+    "gold": "png/cold_gold.png",
+    "hof": "png/cold_hof.png"
+   },
+   "webp": {
+    "locked": "webp/cold_locked.webp",
+    "bronze": "webp/cold_bronze.webp",
+    "silver": "webp/cold_silver.webp",
+    "gold": "webp/cold_gold.webp",
+    "hof": "webp/cold_hof.webp"
+   },
+   "kind": "core"
+  },
+  "dime": {
+   "name": "Dime Dropper",
+   "group": "Playmaking",
+   "stat": "ast",
+   "png": {
+    "locked": "png/dime_locked.png",
+    "bronze": "png/dime_bronze.png",
+    "silver": "png/dime_silver.png",
+    "gold": "png/dime_gold.png",
+    "hof": "png/dime_hof.png"
+   },
+   "webp": {
+    "locked": "webp/dime_locked.webp",
+    "bronze": "webp/dime_bronze.webp",
+    "silver": "webp/dime_silver.webp",
+    "gold": "webp/dime_gold.webp",
+    "hof": "webp/dime_hof.webp"
+   },
+   "kind": "core"
+  },
+  "handles": {
+   "name": "String Handles",
+   "group": "Playmaking",
+   "stat": "move",
+   "png": {
+    "locked": "png/handles_locked.png",
+    "bronze": "png/handles_bronze.png",
+    "silver": "png/handles_silver.png",
+    "gold": "png/handles_gold.png",
+    "hof": "png/handles_hof.png"
+   },
+   "webp": {
+    "locked": "webp/handles_locked.webp",
+    "bronze": "webp/handles_bronze.webp",
+    "silver": "webp/handles_silver.webp",
+    "gold": "webp/handles_gold.webp",
+    "hof": "webp/handles_hof.webp"
+   },
+   "kind": "core"
+  },
+  "first": {
+   "name": "Burst Mode",
+   "group": "Playmaking",
+   "stat": "drv",
+   "png": {
+    "locked": "png/first_locked.png",
+    "bronze": "png/first_bronze.png",
+    "silver": "png/first_silver.png",
+    "gold": "png/first_gold.png",
+    "hof": "png/first_hof.png"
+   },
+   "webp": {
+    "locked": "webp/first_locked.webp",
+    "bronze": "webp/first_bronze.webp",
+    "silver": "webp/first_silver.webp",
+    "gold": "webp/first_gold.webp",
+    "hof": "webp/first_hof.webp"
+   },
+   "kind": "core"
+  },
+  "wall": {
+   "name": "No Easy Ones",
+   "group": "Defense",
+   "stat": "stop",
+   "png": {
+    "locked": "png/wall_locked.png",
+    "bronze": "png/wall_bronze.png",
+    "silver": "png/wall_silver.png",
+    "gold": "png/wall_gold.png",
+    "hof": "png/wall_hof.png"
+   },
+   "webp": {
+    "locked": "webp/wall_locked.webp",
+    "bronze": "webp/wall_bronze.webp",
+    "silver": "webp/wall_silver.webp",
+    "gold": "webp/wall_gold.webp",
+    "hof": "webp/wall_hof.webp"
+   },
+   "kind": "core"
+  },
+  "hawk": {
+   "name": "Quick Hands",
+   "group": "Defense",
+   "stat": "stl",
+   "png": {
+    "locked": "png/hawk_locked.png",
+    "bronze": "png/hawk_bronze.png",
+    "silver": "png/hawk_silver.png",
+    "gold": "png/hawk_gold.png",
+    "hof": "png/hawk_hof.png"
+   },
+   "webp": {
+    "locked": "webp/hawk_locked.webp",
+    "bronze": "webp/hawk_bronze.webp",
+    "silver": "webp/hawk_silver.webp",
+    "gold": "webp/hawk_gold.webp",
+    "hof": "webp/hawk_hof.webp"
+   },
+   "kind": "core"
+  },
+  "swat": {
+   "name": "Swat Team",
+   "group": "Defense",
+   "stat": "blk",
+   "png": {
+    "locked": "png/swat_locked.png",
+    "bronze": "png/swat_bronze.png",
+    "silver": "png/swat_silver.png",
+    "gold": "png/swat_gold.png",
+    "hof": "png/swat_hof.png"
+   },
+   "webp": {
+    "locked": "webp/swat_locked.webp",
+    "bronze": "webp/swat_bronze.webp",
+    "silver": "webp/swat_silver.webp",
+    "gold": "webp/swat_gold.webp",
+    "hof": "webp/swat_hof.webp"
+   },
+   "kind": "core"
+  },
+  "board": {
+   "name": "Board Bully",
+   "group": "Defense",
+   "stat": "reb",
+   "png": {
+    "locked": "png/board_locked.png",
+    "bronze": "png/board_bronze.png",
+    "silver": "png/board_silver.png",
+    "gold": "png/board_gold.png",
+    "hof": "png/board_hof.png"
+   },
+   "webp": {
+    "locked": "webp/board_locked.webp",
+    "bronze": "webp/board_bronze.webp",
+    "silver": "webp/board_silver.webp",
+    "gold": "webp/board_gold.webp",
+    "hof": "webp/board_hof.webp"
+   },
+   "kind": "core"
+  },
+  "vision": {
+   "name": "Eyes in the Back",
+   "group": "Playmaking",
+   "stat": "ast",
+   "png": {
+    "locked": "png/vision_locked.png",
+    "bronze": "png/vision_bronze.png",
+    "silver": "png/vision_silver.png",
+    "gold": "png/vision_gold.png",
+    "hof": "png/vision_hof.png"
+   },
+   "webp": {
+    "locked": "webp/vision_locked.webp",
+    "bronze": "webp/vision_bronze.webp",
+    "silver": "webp/vision_silver.webp",
+    "gold": "webp/vision_gold.webp",
+    "hof": "webp/vision_hof.webp"
+   },
+   "kind": "signature",
+   "archetype": "play"
+  },
+  "hot": {
+   "name": "Catching Fire",
+   "group": "Shooting",
+   "stat": "jmp",
+   "png": {
+    "locked": "png/hot_locked.png",
+    "bronze": "png/hot_bronze.png",
+    "silver": "png/hot_silver.png",
+    "gold": "png/hot_gold.png",
+    "hof": "png/hot_hof.png"
+   },
+   "webp": {
+    "locked": "webp/hot_locked.webp",
+    "bronze": "webp/hot_bronze.webp",
+    "silver": "webp/hot_silver.webp",
+    "gold": "webp/hot_gold.webp",
+    "hof": "webp/hot_hof.webp"
+   },
+   "kind": "signature",
+   "archetype": "shoot"
+  },
+  "downhill": {
+   "name": "Freight Train",
+   "group": "Playmaking",
+   "stat": "drv",
+   "png": {
+    "locked": "png/downhill_locked.png",
+    "bronze": "png/downhill_bronze.png",
+    "silver": "png/downhill_silver.png",
+    "gold": "png/downhill_gold.png",
+    "hof": "png/downhill_hof.png"
+   },
+   "webp": {
+    "locked": "webp/downhill_locked.webp",
+    "bronze": "webp/downhill_bronze.webp",
+    "silver": "webp/downhill_silver.webp",
+    "gold": "webp/downhill_gold.webp",
+    "hof": "webp/downhill_hof.webp"
+   },
+   "kind": "signature",
+   "archetype": "slash"
+  },
+  "shadow": {
+   "name": "Shadow",
+   "group": "Defense",
+   "stat": "stop",
+   "png": {
+    "locked": "png/shadow_locked.png",
+    "bronze": "png/shadow_bronze.png",
+    "silver": "png/shadow_silver.png",
+    "gold": "png/shadow_gold.png",
+    "hof": "png/shadow_hof.png"
+   },
+   "webp": {
+    "locked": "webp/shadow_locked.webp",
+    "bronze": "webp/shadow_bronze.webp",
+    "silver": "webp/shadow_silver.webp",
+    "gold": "webp/shadow_gold.webp",
+    "hof": "webp/shadow_hof.webp"
+   },
+   "kind": "signature",
+   "archetype": "lock"
+  },
+  "bully": {
+   "name": "Bulldog Finish",
+   "group": "Finishing",
+   "stat": "and1",
+   "png": {
+    "locked": "png/bully_locked.png",
+    "bronze": "png/bully_bronze.png",
+    "silver": "png/bully_silver.png",
+    "gold": "png/bully_gold.png",
+    "hof": "png/bully_hof.png"
+   },
+   "webp": {
+    "locked": "webp/bully_locked.webp",
+    "bronze": "webp/bully_bronze.webp",
+    "silver": "webp/bully_silver.webp",
+    "gold": "webp/bully_gold.webp",
+    "hof": "webp/bully_hof.webp"
+   },
+   "kind": "signature",
+   "archetype": "post"
+  },
+  "paint": {
+   "name": "Paint Patrol",
+   "group": "Defense",
+   "stat": "blk",
+   "png": {
+    "locked": "png/paint_locked.png",
+    "bronze": "png/paint_bronze.png",
+    "silver": "png/paint_silver.png",
+    "gold": "png/paint_gold.png",
+    "hof": "png/paint_hof.png"
+   },
+   "webp": {
+    "locked": "webp/paint_locked.webp",
+    "bronze": "webp/paint_bronze.webp",
+    "silver": "webp/paint_silver.webp",
+    "gold": "webp/paint_gold.webp",
+    "hof": "webp/paint_hof.webp"
+   },
+   "kind": "signature",
+   "archetype": "rim"
+  },
+  "pop": {
+   "name": "Trailer Three",
+   "group": "Shooting",
+   "stat": "thr",
+   "png": {
+    "locked": "png/pop_locked.png",
+    "bronze": "png/pop_bronze.png",
+    "silver": "png/pop_silver.png",
+    "gold": "png/pop_gold.png",
+    "hof": "png/pop_hof.png"
+   },
+   "webp": {
+    "locked": "webp/pop_locked.webp",
+    "bronze": "webp/pop_bronze.webp",
+    "silver": "webp/pop_silver.webp",
+    "gold": "webp/pop_gold.webp",
+    "hof": "webp/pop_hof.webp"
+   },
+   "kind": "signature",
+   "archetype": "stretch"
+  },
+  "stepback": {
+   "name": "Step-Back Artist",
+   "group": "Shooting",
+   "stat": "rhy",
+   "effect": "Bigger green window on shots straight out of a step-back, quick stop or side-step, and the step-back creates a bit more space.",
+   "earnedBy": "Shots made out of a step-back, quick stop or side-step (rhythm shots)",
+   "png": {
+    "locked": "png/stepback_locked.png",
+    "bronze": "png/stepback_bronze.png",
+    "silver": "png/stepback_silver.png",
+    "gold": "png/stepback_gold.png",
+    "hof": "png/stepback_hof.png"
+   },
+   "webp": {
+    "locked": "webp/stepback_locked.webp",
+    "bronze": "webp/stepback_bronze.webp",
+    "silver": "webp/stepback_silver.webp",
+    "gold": "webp/stepback_gold.webp",
+    "hof": "webp/stepback_hof.webp"
+   },
+   "new": true,
+   "kind": "core"
+  },
+  "tough": {
+   "name": "Tough Shot Maker",
+   "group": "Shooting",
+   "stat": "tough",
+   "effect": "A hand in your face hurts your jumpers less.",
+   "earnedBy": "Contested jumpers made",
+   "png": {
+    "locked": "png/tough_locked.png",
+    "bronze": "png/tough_bronze.png",
+    "silver": "png/tough_silver.png",
+    "gold": "png/tough_gold.png",
+    "hof": "png/tough_hof.png"
+   },
+   "webp": {
+    "locked": "webp/tough_locked.webp",
+    "bronze": "webp/tough_bronze.webp",
+    "silver": "webp/tough_silver.webp",
+    "gold": "webp/tough_gold.webp",
+    "hof": "webp/tough_hof.webp"
+   },
+   "new": true,
+   "kind": "core"
+  },
+  "iso": {
+   "name": "Iso King",
+   "group": "Shooting",
+   "stat": "iso",
+   "effect": "One-on-one with the floor cleared, your defender's contests count half.",
+   "earnedBy": "Buckets in isolation",
+   "png": {
+    "locked": "png/iso_locked.png",
+    "bronze": "png/iso_bronze.png",
+    "silver": "png/iso_silver.png",
+    "gold": "png/iso_gold.png",
+    "hof": "png/iso_hof.png"
+   },
+   "webp": {
+    "locked": "webp/iso_locked.webp",
+    "bronze": "webp/iso_bronze.webp",
+    "silver": "webp/iso_silver.webp",
+    "gold": "webp/iso_gold.webp",
+    "hof": "webp/iso_hof.webp"
+   },
+   "archetype": "create",
+   "new": true,
+   "kind": "signature"
+  }
+ },
+ "pure": {
+  "rule": "Single tier. Unlocks at 99 OVR for a pure build (both archetype slots from the same family).",
+  "states": [
+   "locked",
+   "unlocked"
+  ],
+  "sizes": {
+   "png": [
+    240,
+    380
+   ],
+   "webp": [
+    120,
+    190
+   ]
+  },
+  "layout": "Bottom 320 px (160 px in WebP) is the shield, the same size as the other badges; the top 60 px (30 px) is the gold crown.",
+  "badges": {
+   "limitless": {
+    "name": "Limitless",
+    "archetype": "Sharpshooter / Stretch",
+    "effect": "The green window does not shrink with distance.",
+    "png": {
+     "locked": "pure/png/limitless_locked.png",
+     "unlocked": "pure/png/limitless_unlocked.png"
+    },
+    "webp": {
+     "locked": "pure/webp/limitless_locked.webp",
+     "unlocked": "pure/webp/limitless_unlocked.webp"
+    },
+    "group": "Shooting",
+    "kind": "pure"
+   },
+   "unguardable": {
+    "name": "Unguardable",
+    "archetype": "Shot Creator",
+    "effect": "After a dribble move beats your man, the next pull-up or fadeaway within about 1 second gets a full green window however hard it is contested.",
+    "png": {
+     "locked": "pure/png/unguardable_locked.png",
+     "unlocked": "pure/png/unguardable_unlocked.png"
+    },
+    "webp": {
+     "locked": "pure/webp/unguardable_locked.webp",
+     "unlocked": "pure/webp/unguardable_unlocked.webp"
+    },
+    "group": "Shooting",
+    "kind": "pure"
+   },
+   "launchpad": {
+    "name": "Launch Pad",
+    "archetype": "Slasher",
+    "effect": "Dunks can start from further out, and dunks through contact still go down.",
+    "png": {
+     "locked": "pure/png/launchpad_locked.png",
+     "unlocked": "pure/png/launchpad_unlocked.png"
+    },
+    "webp": {
+     "locked": "pure/webp/launchpad_locked.webp",
+     "unlocked": "pure/webp/launchpad_unlocked.webp"
+    },
+    "group": "Finishing",
+    "kind": "pure"
+   },
+   "lockin": {
+    "name": "Lock-In",
+    "archetype": "Lockdown / Rim Protector",
+    "effect": "The player you guard cannot heat up: their hot streaks reset and badges like Catching Fire switch off.",
+    "png": {
+     "locked": "pure/png/lockin_locked.png",
+     "unlocked": "pure/png/lockin_unlocked.png"
+    },
+    "webp": {
+     "locked": "pure/webp/lockin_locked.webp",
+     "unlocked": "pure/webp/lockin_unlocked.webp"
+    },
+    "group": "Defense",
+    "kind": "pure"
+   },
+   "floorgeneral": {
+    "name": "Floor General",
+    "archetype": "Playmaker",
+    "effect": "For 3 seconds after catching your pass, a teammate gets a bigger green window.",
+    "png": {
+     "locked": "pure/png/floorgeneral_locked.png",
+     "unlocked": "pure/png/floorgeneral_unlocked.png"
+    },
+    "webp": {
+     "locked": "pure/webp/floorgeneral_locked.webp",
+     "unlocked": "pure/webp/floorgeneral_unlocked.webp"
+    },
+    "group": "Playmaking",
+    "kind": "pure"
+   }
+  }
+ },
+ "archetypes": {
+  "create": {
+   "name": "Shot Creator",
+   "new": true,
+   "primary": "shots on the move (pull-ups, step-backs, rhythm shots out of a move) and mid-range",
+   "secondary": "speed, layups",
+   "average": "standing three-pointers (neither a strength nor a weakness)",
+   "weak": "blocks, rebounding, interior defense",
+   "positions": [
+    "PG",
+    "SG",
+    "SF",
+    "PF",
+    "C"
+   ],
+   "linkedBadges": [
+    "stepback",
+    "tough",
+    "elbow"
+   ],
+   "signature": "iso",
+   "pure": "unguardable"
+  }
+ },
+ "categories": [
+  "Shooting",
+  "Playmaking",
+  "Defense",
+  "Finishing"
+ ],
+ "categoryRule": "The badges tab has exactly these four categories. A badge goes in the one that matches what it does. \"Signature\" and \"pure\" are badge types (who can earn them, how high they go), not categories or tabs.",
+ "unearnableDisplay": "Show greyed out (locked art) in its category, with the reason; never hide. User decision."
+}
